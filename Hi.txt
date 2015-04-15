@@ -1,0 +1,23 @@
+tc<-htmlParse("http://www.tc.columbia.edu/academics/faculty-list/")
+
+
+/html/body/table/tbody/tr[194]/td[2]
+#node-directory-item-220875 > div > div > ul > li:nth-child(2) > a
+#node-directory-item-221134 > div > div > ul > li:nth-child(2) > a:nth-child(1)
+#node-directory-item-221007 > div > div > ul > li:nth-child(2) > a
+#block-views-directory-block--2 > div > div > ul:nth-child(3) > li.views-row.views-row-4.views-row-even.vcard > div.directorydescription > h3 > a
+
+body > table > tbody > tr:nth-child(134) > td.line-content > span:nth-child(7) > span:nth-child(3)
+
+
+#block-views-directory-block--2 > div > div > ul:nth-child(3) > li.views-row.views-row-1.views-row-odd.views-row-first.vcard > div.directorydescription > h3 > a
+#block-views-directory-block--2 > div > div > ul:nth-child(3) > li.views-row.views-row-2.views-row-even.vcard > div.directorydescription > h3 > a
+#block-views-directory-block--2 > div > div > ul:nth-child(3) > li.views-row.views-row-3.views-row-odd.vcard > div.directorydescription > h3 > a
+#block-views-directory-block--2 > div > div > ul:nth-child(3) > li.views-row.views-row-4.views-row-even.vcard > div.directorydescription > h3 > a
+#block-views-directory-block--2 > div > div > ul:nth-child(3) > li.views-row.views-row-7.views-row-odd.vcard > div.directorydescription > h3 > a
+#block-views-directory-block--2 > div > div > ul:nth-child(3) > li.views-row.views-row-5.views-row-odd.vcard > div.directorydescription > h3 > a
+#block-views-directory-block--2 > div > div > ul:nth-child(13) > li.views-row.views-row-4.views-row-even.vcard > div.directorydescription > h3 > a
+#block-views-directory-block--2 > div > div > ul:nth-child(13) > li.views-row.views-row-1.views-row-odd.views-row-first.vcard > div.directorydescription > h3 > a
+#block-views-directory-block--2 > div > div > ul:nth-child(9) > li.views-row.views-row-11.views-row-odd.vcard > div.directorydescription > h3 > a
+
+#block-views-directory-block--2 > div > div > ul:nth-child(5) > li.views-row.views-row-28.views-row-even.vcard > div.directorydescription > h3 > a
