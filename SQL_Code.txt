@@ -1,0 +1,50 @@
+LOAD DATA INFILE 'tanmay_575_A1.csv' INTO TABLE faculty FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 LINES
+
+
+
+----------------------------------------------------------------------------------------------
+Tanmay
+
+
+Database changed
+mysql> show tables;
++--------------+
+| Tables_in_db |
++--------------+
+| faculty      |
++--------------+
+1 row in set (0.00 sec)
+
+mysql> desc faculty;
++------------------+--------------+------+-----+---------+-------+
+| Field            | Type         | Null | Key | Default | Extra |
++------------------+--------------+------+-----+---------+-------+
+| firstname        | varchar(100) | YES  |     | NULL    |       |
+| lastname         | varchar(100) | YES  |     | NULL    |       |
+| university       | varchar(200) | YES  |     | NULL    |       |
+| department       | varchar(200) | YES  |     | NULL    |       |
+| grad_school      | varchar(200) | YES  |     | NULL    |       |
+| grad_school_dept | varchar(200) | YES  |     | NULL    |       |
+| title            | varchar(100) | YES  |     | NULL    |       |
+| university_code  | smallint(6)  | YES  |     | NULL    |       |
+| grad_school_code | smallint(6)  | YES  |     | NULL    |       |
+| highest_degree   | varchar(50)  | YES  |     | NULL    |       |
+| student          | varchar(100) | YES  |     | NULL    |       |
+| Grad_Yr          | varchar(100) | YES  |     | NULL    |       |
++------------------+--------------+------+-----+---------+-------+
+12 rows in set (0.00 sec)
+
+
+
+
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> LOAD DATA INFILE '/home/ubuntu/tanmay_575_A1.csv' INTO TABLE faculty FIELDS TERMINATED BY ',' LINES TERMINATED BY '\r' IGNORE 1 LINES
+    -> ;
+Query OK, 224 rows affected, 940 warnings (0.00 sec)
+Records: 224  Deleted: 0  Skipped: 0  Warnings: 940
+
+mysql> select * from faculty;
+
